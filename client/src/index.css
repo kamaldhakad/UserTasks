@@ -1,0 +1,202 @@
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background: #081420;
+}
+input,textarea{
+  box-shadow: none !important;
+  outline: none;
+}
+
+.page{
+  margin: 50px auto;
+}
+
+/* Signup/Login */
+form{
+  box-shadow: 0 0 3px 2px #fff;
+  padding: 20px 30px;
+  border-radius: 19px;
+}
+
+form label{
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 7px;
+  text-transform: capitalize;
+  color: #fff;
+}
+.form-title{
+  font-size: 45px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  text-align: center;
+}
+.btn-submit{
+  font-size: 20px;
+  font-weight: 700;
+  background: #2ec834;
+  width: 100%;
+  display: block;
+}
+.another-opt{
+  font-size: 16px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 0;
+  text-align: center;
+  margin-top: 15px;
+}
+.another-opt a{
+  color: #fff;
+  text-decoration: none;
+  transition: all ease-in-out 0.25s;
+}
+.another-opt a:hover{
+  color: #2ec834;
+}
+
+/* Home */
+.heading{
+  font-size: 87px;
+  margin-bottom: 10px;
+  color: #fff;
+  text-align: center;
+}
+.heading img{
+  width: 72px;
+  height: 72px;
+}
+
+.search-wrap {
+  width: 90%;
+  max-width: 688px;
+  background: #384f6b;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+.search-wrap input{
+  background: transparent;
+  border: none;
+  width: calc(100% - 35px);
+  height: 100%;
+  border-left: 1px solid #fff;
+  padding: 5px 10px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+}
+.search-wrap input::placeholder{
+  color: #fff;
+}
+.search-wrap .search-icon svg {
+  color: #fff;
+  width: 25px;
+  height: 25px;
+}
+.tasks .task {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 15px;
+}
+.tasks .card {
+  background: #192431;
+  padding: 20px 30px;
+  border-radius: 20px;
+  width: calc(100% - 100px);
+}
+.tasks .card h6{
+  color: #fff;
+  padding: 5px;
+}
+.tasks .card p{
+  color: #B9B9B9;
+  margin-bottom: 0;
+}
+.tasks .edit{
+  color: #fff;
+}
+.tasks .close{
+  color: #fff;
+}
+.tasks .actions{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 100px;
+}
+.tasks .actions span{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all ease-in-out0.25s;
+}
+.tasks .actions span.close{
+  background: #8171E6;
+}
+.tasks .actions span.close:hover{
+  background: #5346ad;
+}
+.tasks .actions span.edit{
+  background: #192431;
+}
+.tasks .actions span.edit:hover{
+  background: #2ec834;
+}
+.tasks .actions span img{
+  width: 20px;
+  display: block;
+}
+.add-task-wrap{
+  width: 90%;
+  max-width: 688px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: auto;
+}
+.add-task-wrap input{
+  background-color: #192431;
+  font-size: 18px;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 7px;
+  border: none;
+  width: calc(100% - 40px);
+}
+.add-task-wrap input::placeholder{
+  color: #fff;
+}
+.add-task-wrap button{
+  background-color: #192431;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 7px;
+  border: none;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
